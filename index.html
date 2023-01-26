@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/cdb39132d5.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4"><i class="fa-solid fa-newspaper"></i> New York Times Search</h1>
+        </div>
+    </div>
+    <br>
+    
+    <div id="search-params">
+        <h3>Search Parameters</h3>
+    </div>
+    <form>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Search Term</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Number of Records to Retrieve</label>
+            <select type="value">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect2">Start Year <em>(optional)</em></label>
+            <select type="text">
+                <option>1980-89</option>
+                <option>1990-99</option>
+                <option>2000-2009</option>
+                <option>2010-2019</option>
+                <option>2020+</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">End Year <em>(optional)</em></label>
+            <select type="text">
+                <option>1980-89</option>
+                <option>1990-99</option>
+                <option>2000-2009</option>
+                <option>2010-2019</option>
+                <option>2020+</option>
+            </select>
+        </div>
+    </form>
+    <br>
+    <div id="container search-bin-buttons">
+        <button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-magnifying-glass"> Search </i>
+        </button>
+        <button type="button" class="btn btn-secondary btn-sm"><i class="fa-solid fa-trash"> Bin it </i></button>
+
+    </div>
+
+
+
+    <footer id="footer">
+        <h3>Made with lots of 🖤 </h3> 
+    </footer>
+
+</body>
+
+</html>
